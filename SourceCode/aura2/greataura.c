@@ -23,7 +23,7 @@ id=0
  
 cubism tile-size=14 seed=0
 median-blur radius=19 alpha-percentile=50 abyss-policy=none
-ai/lb:turbulent-distortion scale=30 intensity=15 seed=0
+lb:distorted-aura
 gaussian-blur std-dev-x=1 std-dev-y=1 abyss-policy=none clip-extent=none
 color-overlay value=#ffd803
 median-blur radius=0 abyss-policy=none 
@@ -355,7 +355,7 @@ GeglOperationMetaClass *operation_meta_class = GEGL_OPERATION_META_CLASS (klass)
     "reference-hash", "taxidriverfuturefunk",
     "description", _("Aura with a liquid distortion attempts to create a flame in default. "
                      ""),
-    "gimp:menu-path", "<Image>/Filters/Text Styling",
+    "gimp:menu-path", "<Image>/Filters/Artistic",
     "gimp:menu-label", _("Distorted Aura..."),
     NULL);
 }
