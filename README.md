@@ -4,6 +4,9 @@ Make a firey aura behind a subject/object using this GIMP plugin
 
 ![image](https://github.com/user-attachments/assets/d77dec64-16e1-4be1-87ef-90a8320cc70c)
 
+![image](https://github.com/user-attachments/assets/1ea62430-3651-4bcf-87ea-0781d0bb2d76)
+
+
 
 ## Directory to put Binaries (They do NOT go in the normal plugins folder)
 
