@@ -281,7 +281,7 @@ state->behind = gegl_node_new_child (gegl, "operation", "gegl:dst-over", NULL);
   gegl_operation_meta_redirect (operation, "radius",  state->blur, "std-dev-x");
   gegl_operation_meta_redirect (operation, "radius",  state->blur, "std-dev-y");
   gegl_operation_meta_redirect (operation, "grow_radius",  state->median, "radius");
-  gegl_operation_meta_redirect (operation, "grow_shape",  state->median, "neighborhood");
+
   gegl_operation_meta_redirect (operation, "x",  state->move, "x");
   gegl_operation_meta_redirect (operation, "y",  state->move, "y");
   gegl_operation_meta_redirect (operation, "tile_size",  state->cubism, "tile_size");
@@ -302,7 +302,7 @@ state->behind = gegl_node_new_child (gegl, "operation", "gegl:dst-over", NULL);
 
 
 
- gegl_operation_meta_redirect (operation, "displace-mode", state->distort,  "displace-mode");
+
  gegl_operation_meta_redirect (operation, "displace-amount-x", state->distort,  "displace-amount-x");
  gegl_operation_meta_redirect (operation, "displace-amount-y", state->distort,  "displace-amount-y");
 
